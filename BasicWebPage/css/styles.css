@@ -1,0 +1,179 @@
+@keyframes rotateObject {
+    0%   {transform: rotate(0deg);}
+    100% {transform: rotate(90deg);}
+}
+
+:root {
+    --white: #FFFFFF;
+    --black: #000000;
+    --grey: #757575FF;
+    --lightGrey: #DFE9F3FF;
+    --primary: rgb(194, 191, 244);
+    --secondary: #FFFFFFFF;
+    --terciary: #9bf5a9;
+}
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+*, 
+*:before, 
+*:after {
+    box-sizing: inherit;
+}
+
+/* GLOBALS */
+body {
+    background-image: url("../img/simpleBackground.jpg");
+    background-color: var(--secondary);
+    font-family: 'Krub', sans-serif;
+    font-size: 2rem;
+    line-height: 1.5;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+p {
+    font-size: 1.8rem;
+    color: var(--black);
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+img {
+    max-width: 100%;
+}
+
+h1,
+h2,
+h3 {
+    text-align: center;
+    color: var(--black);
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 3.2rem;
+}
+
+h3 {
+    font-size: 2.4rem;
+}
+
+.title span {
+    font-size: 2.5rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem 0;
+    border-radius: 0 0 3rem 3rem;
+    background: var(--primary);
+}
+
+nav .logoImage {
+    display: flex;
+    align-items: center;
+    max-width: 4.5rem;
+    animation-duration: 1s;
+    animation-name: rotateObject;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+nav .logoImage:hover {
+    background-color: var(--secondary);
+}
+
+nav a:hover {
+    color: var(--secondary);
+}
+
+.thisPageWhite {
+    color: var(--secondary);
+}
+
+
+
+main {
+    font-size: 1.8rem;
+}
+
+main p {
+    text-align: center;
+}
+
+main li {
+    padding: 1rem 0;
+}
+
+main a:hover {
+    text-decoration: underline;
+}
+
+main .resume:hover {
+    text-decoration: underline;
+}
+
+.projects {
+    padding: 3rem 0;
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+}
+
+.projects th {
+    padding: 1rem 4rem;
+}
+
+.projects td {
+    text-align: center;
+}
+
+fieldset {
+    border: none;
+}
+
+.contactForm {
+    display: block;
+}
+
+.contactForm div {
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem;
+}
+
+footer {
+    background: var(--primary);
+    border-radius: 3rem 3rem 0 0;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: auto;
+    animation-duration: 2s;
+    animation-name: changeBackground;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+footer p {
+    display: flex;
+    align-items: center;
+    gap: 0 2rem;
+}
+
+footer svg {
+    height: 4rem;
+    width: 4rem;
+}

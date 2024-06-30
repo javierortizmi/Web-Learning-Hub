@@ -1,0 +1,95 @@
+/* Do not remove this rule */
+
+html {
+    font-size: 14px;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+/* GENERAL STUFF */
+
+h1 {
+    font-size: 1.5rem;
+    margin: 0.8rem 0;
+}
+
+h3 {
+    font-size: 1.1rem;
+}
+
+p, li, table {
+    font-size: 0.75rem;
+}
+
+.underlineText {
+    text-decoration: underline;
+}
+
+/* BORDERS */
+
+#doubleBorder {
+    margin: 1rem 0.5rem;
+    border: 0.5rem double brown;
+    padding: 0.5rem;
+}
+
+#solidBorder {
+    border: 0.5rem solid blue;
+    padding: 3rem 2rem;
+    background-color: white;
+}
+
+/* HEADER */
+
+header .headerLogos {
+    display: flex;
+    align-items: baseline;
+    justify-content: left;
+}
+
+header #UMDGlobe {
+    max-width: 5rem;
+}
+
+header #deptcs {
+    width: 27rem;
+    height: 3.5rem;
+}
+
+/* TITLE SECTION */
+
+.title p {
+    color: brown;
+}
+.title p:hover {
+    color: red;
+}
+
+.title #capitalT {
+    font-size: 2rem;
+}
+
+.title #pContainer {
+    max-width: 30rem;
+}
+
+/* TABLE */
+
+table, th, td {
+    border: 0.08rem solid black;
+}
+
+table caption {
+    color: blue;
+}
+
+table th {
+    color: brown;
+    background-color: antiquewhite;
+}
+
+.additionalInfo p {
+    color: brown;
+}

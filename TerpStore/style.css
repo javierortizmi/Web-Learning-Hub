@@ -1,0 +1,131 @@
+html {
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 7vh;
+    color: azure;
+    margin: 0.5rem 0 0 1rem;
+}
+
+p, a {
+    font-size: 3vh;
+    color: brown;
+}
+
+a:visited {
+    color: beige;
+}
+
+a:hover {
+    font-size: 2vh;
+}
+
+body {
+    margin: 0;
+}
+
+#blackBackground {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+#whiteBorder {
+    width: 105vh;
+    border: 0.5rem solid white;
+}
+
+#greenBorder {
+    border: 0.6rem solid green;
+    background-image: url(images/JimHenson.jpg);
+    background-repeat: no-repeat;
+    background-size: 125% 100%;
+    display: flex;
+    flex-direction: column;
+    height: 97.5vh;
+}
+
+h1 u {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+#midSpace {
+    min-height: 77vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#midContainer {
+    display: flex;
+    flex-direction: column;
+    height: 7vh;
+    width: 35vh;
+    background-color: rgba(211, 211, 211, 0.8);
+    border: 0.15rem solid black;
+    text-align: center;
+}
+
+#formContainer {
+    min-height: 72vh;
+    padding: 5vh 0 0 5vh;
+}
+
+fieldset {
+    border: 0.5rem solid azure;
+    background-color: rgba(255, 255, 255, 0.85);
+    font-size: 2.5vh;
+    padding: 2.5vh 2.5vh;
+    width: max-content;
+}
+
+fieldset label {
+    text-decoration: underline;
+}
+
+fieldset input {
+    margin: 1vh 0;
+    border: 0.2rem solid red;
+    font-size: 1.8vh;
+}
+
+#email {
+    width: 25vh;
+}
+
+#cc1, #cc2, #cc3, #cc4 {
+    width: 5vh;
+}
+
+.hyphen {
+    text-decoration: none;
+}
+
+.button {
+    width: 17vh;
+    height: 6vh;
+    border: 0.3rem double black;
+    border-radius: 0.5rem;
+    margin: 2vh 1vh;
+}
+
+footer {
+    margin-top: auto;
+    border: 0.5rem solid lightblue;
+}
+
+footer div {
+    display: flex;
+    border: 1rem ridge silver;
+    background-color: red;
+    align-items: center;
+    justify-content: center;
+    height: 7vh;
+}
+
+footer div a {
+    font-style: italic;
+}

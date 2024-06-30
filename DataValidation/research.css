@@ -1,0 +1,50 @@
+html {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-shadow: 0.3rem 0.3rem 0.25rem silver;
+}
+
+p, input, label {
+    margin: 0;
+}
+
+fieldset {
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+fieldset legend {
+    font-weight: bold;
+    color: #A0522D;
+}
+
+fieldset p {
+    margin-bottom: 0.3rem;
+}
+
+fieldset .shortInput {
+    width: 2.8rem;
+}
+
+fieldset#generalInfo #email {
+    width: 30rem;
+    margin-top: 0.5rem;
+}
+
+fieldset .tallInput {
+    height: 1.6rem;
+}
+
+fieldset#studyInformation #studyType {
+    width: 8rem;
+}
+
+footer p {
+    text-align: center;
+    border-top: 0.2rem double black;
+    border-bottom: 0.2rem double black;
+}
