@@ -1,0 +1,11 @@
+/* index.css (puedes dejarlo vacío o resetear estilos básicos) */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Opcional: Reset básico para eliminar márgenes predeterminados */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}

@@ -1,0 +1,136 @@
+/* App.css */
+.main-container {
+  padding: 2rem;
+  text-align: center;
+  min-height: 100vh;
+  background: #f0f2f5;
+}
+
+.editor {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.preview {
+  width: 300px;
+  padding: 2rem;
+  background: white;
+  border-radius: 1rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.controls {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  background: white;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.controller h3 {
+  margin: 0 0 1rem 0;
+  color: #333;
+}
+
+.options-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.5rem;
+}
+
+.option {
+  padding: 0.5rem;
+  border: 2px solid #ddd;
+  background: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.option.selected {
+  border-color: #646cff;
+  background: #e8eaff;
+}
+
+.color-picker {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+}
+
+.color-option {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 2px solid transparent;
+  cursor: pointer;
+}
+
+.color-option:hover {
+  transform: scale(1.1);
+}
+
+.avatar-head {
+  width: 60px;
+  height: 70px;
+  margin: 0 auto;
+  border-radius: 50%;
+  position: relative;
+  background: #ffd700;
+}
+
+.avatar-hat {
+  position: absolute;
+  top: -25px;
+  left: 75%;
+  transform: translateX(-50%);
+  width: 80px;
+  height: 50px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.avatar-hat.witch {
+  background-image: url('https://img.icons8.com/witch');
+}
+
+.avatar-hat.crown {
+  background-image: url('https://img.icons8.com/crown');
+}
+
+.avatar-hat.baseball {
+  background-image: url('https://img.icons8.com/?size=100&id=110315&format=png&color=000000');
+}
+
+.avatar-glasses {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-20%, -50%);
+  width: 100px;
+  height: 40px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.avatar-glasses.round {
+  background-image: url('https://img.icons8.com/?size=500&id=s30nlGu2lmqF&format=png&color=000000');
+}
+
+.avatar-glasses.square {
+  background-image: url('https://img.icons8.com/?size=100&id=2ny62dRrdA4R&format=png&color=000000');
+}
+
+.avatar-glasses.sunglasses {
+  background-image: url('https://img.icons8.com/?size=100&id=7693&format=png&color=000000');
+}
+
+.footer {
+  margin-top: 2rem;
+  font-size: 0.875rem;
+  color: #666;
+}
