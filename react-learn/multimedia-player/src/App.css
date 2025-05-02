@@ -1,0 +1,119 @@
+/* App.css */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #121212;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.player-container {
+  width: 90%;
+  max-width: 500px;
+  background-color: #1e1e1e;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 1rem;
+  color: #1db954;
+}
+
+.song-title {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.controls {
+  margin-top: 1rem;
+}
+
+.main-button {
+  background-color: #1db954;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  color: white;
+  border-radius: 999px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-bottom: 1rem;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.main-button:hover {
+  background-color: #17a34a;
+}
+
+input[type="range"] {
+  width: 100%;
+  margin: 0.5rem 0;
+}
+
+.time {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.9rem;
+  color: #b3b3b3;
+}
+
+.song-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.song-list button {
+  background-color: #282828;
+  color: white;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.song-list button:hover {
+  background-color: #333;
+}
+
+.song-list .selected {
+  background-color: #1db954;
+  color: #fff;
+}
+
+.visualizer {
+  width: 100%;
+  margin: 1rem 0;
+  border-radius: 0.5rem;
+  background-color: #202020;
+}
+
+.upload-section {
+  margin-top: 1rem;
+}
+
+.upload-section input[type="file"] {
+  color: white;
+  cursor: pointer;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.2rem;
+  margin-top: 1rem;
+}
+
+.footer p {
+  margin: 0.2rem;
+}
