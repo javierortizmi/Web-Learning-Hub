@@ -87,7 +87,7 @@ export default function App() {
 
       <footer className='footer'>
         <p>Made with ❤️ by <a href="https://www.javierortizmi.com/" target="_blank" rel="noopener noreferrer">Javier Ortiz Millan</a></p>
-        <p>Source code available on <a href="https://github.com/javierortizmi/web-development/tree/main/react-learn/basics" target="_blank" rel="noopener noreferrer">GitHub</a></p>
+        <p>Source code available on <a href="https://github.com/javierortizmi/web-development/tree/main/tutorials/React/avatar-customizer" target="_blank" rel="noopener noreferrer">GitHub</a></p>
       </footer>
     </div>
   )
