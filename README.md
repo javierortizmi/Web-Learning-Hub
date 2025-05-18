@@ -51,4 +51,6 @@ This repo is licensed under the MIT License. See [LICENSE](LICENSE) for details.
 
 ---
 
+Leave a star ⭐ if you find this repo useful!
+
 Happy coding! 🎧🚀
